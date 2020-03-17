@@ -3,7 +3,12 @@ const dbCredentials = {
     port: 5432,
     user: 'fmofgsovbdpyrg',
     password: '5b8bebaf8b2d27da717ec0251a42deb92759dc6fa057b1b1c000df283cc423a8',
-    database:'dfjm6p8h68bgu5'
+    database:'dfjm6p8h68bgu5',
+    ssl: true,
+    dialect: 'postgres',
+    dialectOptions: {
+      "ssl": {"require":true }
+    }
 }
 
 const { Client } = require('pg');

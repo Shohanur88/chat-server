@@ -3,7 +3,7 @@
 //import ('./Sql');
 //import {} from './Sql';
 
- const Sql = require('./Sql');
+const Sql = require('./Sql');
 
 Sql.SqlConnect();
 // // let userData={
@@ -32,8 +32,8 @@ Sql.SqlConnect();
 //     console.log(msg);
 // });
 // //console.log(check);
-Sql.SqlMsgDelete((r)=>{
-    console.log(r);
-})
- Sql.SqlDisconnect();
+// Sql.SqlMsgDelete((r)=>{
+//     console.log(r);
+// })
+//Sql.SqlDisconnect();
 
